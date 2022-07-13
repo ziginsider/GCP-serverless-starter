@@ -8,8 +8,8 @@ function App(req,res) {
     return app(req,res);
 }
 
-var myWebsiteBackend = App;
+var currencyApiBackend = App;
 
 module.exports = {
-    myWebsiteBackend
+    currencyApiBackend
 };
